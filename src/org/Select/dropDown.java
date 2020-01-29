@@ -18,7 +18,8 @@ public class dropDown {
 		s.selectByValue("24");
 		WebElement month = driver.findElement(By.id("month"));
 		Select s1 = new Select(month);
-		
+		Select s2 = new Select(month);
+
 		
 	}
 
